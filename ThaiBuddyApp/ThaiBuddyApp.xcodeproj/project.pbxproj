@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B414391B1A0E835400780D1B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B414391A1A0E835400780D1B /* SWRevealViewController.m */; };
+		B414392D1A0E860800780D1B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B414392C1A0E860800780D1B /* MenuViewController.m */; };
+		B41439331A0E864A00780D1B /* AboutViewControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41439321A0E864A00780D1B /* AboutViewControlerViewController.m */; };
+		B41439361A0E867700780D1B /* RemoveAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41439351A0E867700780D1B /* RemoveAdsViewController.m */; };
+		B41439391A0E869500780D1B /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41439381A0E869500780D1B /* StatsViewController.m */; };
+		B414393C1A0E86B200780D1B /* StatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B414393B1A0E86B200780D1B /* StatsModel.m */; };
+		B414393F1A0E88BE00780D1B /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B414393E1A0E88BE00780D1B /* QuestionViewController.m */; };
+		B41439421A0E88D600780D1B /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B41439411A0E88D600780D1B /* QuestionModel.m */; };
+		B41439451A0E8B3200780D1B /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B41439441A0E8B3200780D1B /* MenuModel.m */; };
 		B45E25441A04EA1F007F4719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E25431A04EA1F007F4719 /* main.m */; };
 		B45E25471A04EA1F007F4719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E25461A04EA1F007F4719 /* AppDelegate.m */; };
-		B45E254A1A04EA1F007F4719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E25491A04EA1F007F4719 /* ViewController.m */; };
 		B45E254D1A04EA1F007F4719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45E254B1A04EA1F007F4719 /* Main.storyboard */; };
 		B45E254F1A04EA1F007F4719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45E254E1A04EA1F007F4719 /* Images.xcassets */; };
 		B45E25521A04EA1F007F4719 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45E25501A04EA1F007F4719 /* LaunchScreen.xib */; };
@@ -27,13 +35,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41439191A0E835400780D1B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Reveal/SWRevealViewController.h; sourceTree = "<group>"; };
+		B414391A1A0E835400780D1B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Reveal/SWRevealViewController.m; sourceTree = "<group>"; };
+		B414392B1A0E860800780D1B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
+		B414392C1A0E860800780D1B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
+		B41439311A0E864A00780D1B /* AboutViewControlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewControlerViewController.h; sourceTree = "<group>"; };
+		B41439321A0E864A00780D1B /* AboutViewControlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewControlerViewController.m; sourceTree = "<group>"; };
+		B41439341A0E867700780D1B /* RemoveAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveAdsViewController.h; path = RemoveAds/RemoveAdsViewController.h; sourceTree = "<group>"; };
+		B41439351A0E867700780D1B /* RemoveAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoveAdsViewController.m; path = RemoveAds/RemoveAdsViewController.m; sourceTree = "<group>"; };
+		B41439371A0E869500780D1B /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsViewController.h; path = Stats/StatsViewController.h; sourceTree = "<group>"; };
+		B41439381A0E869500780D1B /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsViewController.m; path = Stats/StatsViewController.m; sourceTree = "<group>"; };
+		B414393A1A0E86B200780D1B /* StatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsModel.h; path = Stats/StatsModel.h; sourceTree = "<group>"; };
+		B414393B1A0E86B200780D1B /* StatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsModel.m; path = Stats/StatsModel.m; sourceTree = "<group>"; };
+		B414393D1A0E88BE00780D1B /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionViewController.h; path = Question/QuestionViewController.h; sourceTree = "<group>"; };
+		B414393E1A0E88BE00780D1B /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionViewController.m; path = Question/QuestionViewController.m; sourceTree = "<group>"; };
+		B41439401A0E88D600780D1B /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionModel.h; path = Question/QuestionModel.h; sourceTree = "<group>"; };
+		B41439411A0E88D600780D1B /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionModel.m; path = Question/QuestionModel.m; sourceTree = "<group>"; };
+		B41439431A0E8B3200780D1B /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuModel.h; path = Menu/MenuModel.h; sourceTree = "<group>"; };
+		B41439441A0E8B3200780D1B /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuModel.m; path = Menu/MenuModel.m; sourceTree = "<group>"; };
 		B45E253E1A04EA1F007F4719 /* ThaiBuddyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaiBuddyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45E25421A04EA1F007F4719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45E25431A04EA1F007F4719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B45E25451A04EA1F007F4719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B45E25461A04EA1F007F4719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B45E25481A04EA1F007F4719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B45E25491A04EA1F007F4719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B45E254C1A04EA1F007F4719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B45E254E1A04EA1F007F4719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B45E25511A04EA1F007F4719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +84,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B41439101A0E314800780D1B /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				B41439191A0E835400780D1B /* SWRevealViewController.h */,
+				B414391A1A0E835400780D1B /* SWRevealViewController.m */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		B41439131A0E822F00780D1B /* About */ = {
+			isa = PBXGroup;
+			children = (
+				B41439311A0E864A00780D1B /* AboutViewControlerViewController.h */,
+				B41439321A0E864A00780D1B /* AboutViewControlerViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		B41439141A0E823E00780D1B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B414392B1A0E860800780D1B /* MenuViewController.h */,
+				B414392C1A0E860800780D1B /* MenuViewController.m */,
+				B41439431A0E8B3200780D1B /* MenuModel.h */,
+				B41439441A0E8B3200780D1B /* MenuModel.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		B41439151A0E824800780D1B /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				B41439371A0E869500780D1B /* StatsViewController.h */,
+				B41439381A0E869500780D1B /* StatsViewController.m */,
+				B414393A1A0E86B200780D1B /* StatsModel.h */,
+				B414393B1A0E86B200780D1B /* StatsModel.m */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
+		B41439161A0E826400780D1B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B41439171A0E82A000780D1B /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				B414393D1A0E88BE00780D1B /* QuestionViewController.h */,
+				B414393E1A0E88BE00780D1B /* QuestionViewController.m */,
+				B41439401A0E88D600780D1B /* QuestionModel.h */,
+				B41439411A0E88D600780D1B /* QuestionModel.m */,
+			);
+			name = Question;
+			sourceTree = "<group>";
+		};
+		B41439181A0E82D600780D1B /* RemoveAds */ = {
+			isa = PBXGroup;
+			children = (
+				B41439341A0E867700780D1B /* RemoveAdsViewController.h */,
+				B41439351A0E867700780D1B /* RemoveAdsViewController.m */,
+			);
+			name = RemoveAds;
+			sourceTree = "<group>";
+		};
 		B45E25351A04EA1F007F4719 = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +174,16 @@
 			children = (
 				B45E25451A04EA1F007F4719 /* AppDelegate.h */,
 				B45E25461A04EA1F007F4719 /* AppDelegate.m */,
-				B45E25481A04EA1F007F4719 /* ViewController.h */,
-				B45E25491A04EA1F007F4719 /* ViewController.m */,
 				B45E254B1A04EA1F007F4719 /* Main.storyboard */,
 				B45E254E1A04EA1F007F4719 /* Images.xcassets */,
 				B45E25501A04EA1F007F4719 /* LaunchScreen.xib */,
+				B41439101A0E314800780D1B /* Reveal */,
+				B41439171A0E82A000780D1B /* Question */,
+				B41439161A0E826400780D1B /* Helpers */,
+				B41439181A0E82D600780D1B /* RemoveAds */,
+				B41439131A0E822F00780D1B /* About */,
+				B41439141A0E823E00780D1B /* Menu */,
+				B41439151A0E824800780D1B /* Stats */,
 				B45E25411A04EA1F007F4719 /* Supporting Files */,
 			);
 			path = ThaiBuddyApp;
@@ -219,9 +315,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45E254A1A04EA1F007F4719 /* ViewController.m in Sources */,
+				B41439331A0E864A00780D1B /* AboutViewControlerViewController.m in Sources */,
+				B41439421A0E88D600780D1B /* QuestionModel.m in Sources */,
+				B41439361A0E867700780D1B /* RemoveAdsViewController.m in Sources */,
+				B414392D1A0E860800780D1B /* MenuViewController.m in Sources */,
 				B45E25471A04EA1F007F4719 /* AppDelegate.m in Sources */,
+				B41439391A0E869500780D1B /* StatsViewController.m in Sources */,
+				B414393F1A0E88BE00780D1B /* QuestionViewController.m in Sources */,
 				B45E25441A04EA1F007F4719 /* main.m in Sources */,
+				B414393C1A0E86B200780D1B /* StatsModel.m in Sources */,
+				B41439451A0E8B3200780D1B /* MenuModel.m in Sources */,
+				B414391B1A0E835400780D1B /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +516,7 @@
 				B45E25631A04EA1F007F4719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45E25641A04EA1F007F4719 /* Build configuration list for PBXNativeTarget "ThaiBuddyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +525,7 @@
 				B45E25661A04EA1F007F4719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

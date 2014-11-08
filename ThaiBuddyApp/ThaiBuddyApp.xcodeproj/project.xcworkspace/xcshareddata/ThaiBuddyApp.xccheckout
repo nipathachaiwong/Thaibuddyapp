@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4235CE31-E72D-4F61-97CF-4FE378E662D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ThaiBuddyApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF408EB595BF107E955F90AA8028C68BC0AC18BC</key>
+		<string>https://github.com/nipathachaiwong/Thaibuddyapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ThaiBuddyApp/ThaiBuddyApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF408EB595BF107E955F90AA8028C68BC0AC18BC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nipathachaiwong/Thaibuddyapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF408EB595BF107E955F90AA8028C68BC0AC18BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF408EB595BF107E955F90AA8028C68BC0AC18BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Thaibuddyapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
